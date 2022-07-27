@@ -11,6 +11,8 @@
 
     <modules>
         <module>question-java-stream</module>
+        <module>question-java-genericbox</module>
+        <module>question-java-iteratorcheck</module>
         <module>question-spring-boot-rest</module>
     </modules>
     
