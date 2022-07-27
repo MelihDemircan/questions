@@ -1,31 +1,23 @@
-package com.paycell.ecommerce.shipping;
+package com.fmss.questions.javastream;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class ShippingServiceApplication {
+public class JavaStreamApplication {
 
     public static void main(String[] args) {
-        new ShippingServiceApplication().streamFilter();
+        new JavaStreamApplication().streamFilter();
     }
 
+    @Getter
+    @AllArgsConstructor
     public class Person {
 
         private String name;
         private int age;
-
-        public Person(String name, int age) {
-            this.name = name;
-            this.age = age;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public int getAge() {
-            return age;
-        }
 
         @Override
         public String toString() {
@@ -44,14 +36,14 @@ public class ShippingServiceApplication {
         );
 
         /**
-         * resutlt1 = persons listesinden sadece Mehmet'in getirilmesi
+         * TODO : resutlt1 = persons listesinden sadece Mehmet'in getirilmesi
          */
         Person result1 = null;
 
         System.out.println(result1);
 
         /**
-         * resutlt2 = persons listesinden yaşı(age) 35 den küçük olanların getirilmesi
+         * TODO :  resutlt2 = persons listesinden yaşı(age) 35 den küçük olanların getirilmesi
          */
         List<Person> result2 = null;
 
