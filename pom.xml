@@ -10,6 +10,7 @@
     <name>questions-root</name>
 
     <modules>
+        <module>question-java-exception</module>
         <module>question-java-stream</module>
         <module>question-java-genericbox</module>
         <module>question-java-iteratorcheck</module>
